@@ -1,5 +1,5 @@
 import React, { useState, useRef, useMemo } from 'react'
-import { View, Text, TextInput, Dimensions, TouchableOpacity, ScrollView } from 'react-native'
+import { View, Text, TextInput, Dimensions, TouchableOpacity, ScrollView, Keyboard } from 'react-native'
 import Video from 'react-native-video'
 
 const playerWidth = Dimensions.get('window').width
@@ -59,6 +59,7 @@ const HLSDebugScreen = () => {
       playerRef.current.seek(1)
       setPause(false)
     }
+    Keyboard.dismiss()
   }
 
   const onClearLogPressed = () => {
