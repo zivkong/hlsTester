@@ -11,14 +11,20 @@
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-native": "0.63.2",
+    "react-native-video": "^5.1.0-alpha7"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/runtime": "^7.11.2",
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.3.0",
-    "eslint": "^7.7.0",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0",
     "jest": "^26.4.0",
     "metro-react-native-babel-preset": "^0.62.0",
     "react-test-renderer": "16.13.1"
